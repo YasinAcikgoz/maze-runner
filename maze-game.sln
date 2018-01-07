@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maze-game", "Assembly-CSharp.csproj", "{EA5CC9D4-9D14-CE9D-15AB-1CC2F8177C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maze-game", "Assembly-CSharp-Editor.csproj", "{6FE14642-0DDF-C628-9423-8E1886652C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5CC9D4-9D14-CE9D-15AB-1CC2F8177C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5CC9D4-9D14-CE9D-15AB-1CC2F8177C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5CC9D4-9D14-CE9D-15AB-1CC2F8177C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5CC9D4-9D14-CE9D-15AB-1CC2F8177C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE14642-0DDF-C628-9423-8E1886652C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE14642-0DDF-C628-9423-8E1886652C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE14642-0DDF-C628-9423-8E1886652C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE14642-0DDF-C628-9423-8E1886652C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
