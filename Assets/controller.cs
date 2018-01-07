@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class controller : MonoBehaviour
 {
@@ -19,21 +20,20 @@ public class controller : MonoBehaviour
     void Update()
     {
         if (walking)
-        {
             transform.position = transform.position + Camera.main.transform.forward * .5f * Time.deltaTime;
-        }
+        
 
         if (transform.position.y < -10f)
-        {
+        
             transform.position = spanPoint;
-        }
-
+        
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit))
-        {
-            if (hit.collider.name.Contains("plane"))
+		{
+			
+			if (hit.collider.name.Contains("plane") || hit.collider.name.Contains("cube") )
             {
                 walking = false;
             }
